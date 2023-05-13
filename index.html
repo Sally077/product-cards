@@ -9,9 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Satisfy&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c7328749f0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
+        <div class="cart-nav">
+            <div class="icon">
+                 <i class="fas fa-shopping-cart"></i>
+                 <span>Cart</span>
+            </div>
+            <div class="item-numb">0</div>
+        </div>
         <div class="card">
             <img src="./images/headphones.jpg" alt="">
         <div class="content">
@@ -24,7 +33,7 @@
             </div>
             <div class="buttons">
                 <button>Buy Now</button>
-                <button>Add to cart</button>
+                <button class="cart-btn">Add to cart</button>
             </div>
         </div>
         </div>
@@ -40,7 +49,7 @@
             </div>
             <div class="buttons">
                 <button>Buy Now</button>
-                <button>Add to cart</button>
+                <button class="cart-btn">Add to cart</button>
             </div>
         </div>
         </div>
@@ -56,10 +65,11 @@
             </div>
             <div class="buttons">
                 <button>Buy Now</button>
-                <button>Add to cart</button>
+                <button class="cart-btn">Add to cart</button>
             </div>
         </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
