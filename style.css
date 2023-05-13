@@ -1,0 +1,66 @@
+
+*root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    min-height: 100vh;
+    background: #ff7979;
+}
+.wrapper {
+    max-width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .card {
+    width: cal(33% - 13px);
+    border-radius: 3px;
+    background: #fff;
+}
+.wrapper .card img {
+    width: 100%;
+    border-radius: 3px;
+}
+.wrapper .card .content {
+    padding: 10px 20px 22px 20px;
+}
+.card .content .row,
+.card .content .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.content .row .details span {
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.content .row .details p {
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.content .buttons {
+    margin-top: 20px;
+}
+.content .buttons button {
+    width: 100%;
+    outline: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 2px solid #ff7979;
+    cursor: pointer;
+}
+.buttons button:first-child {
+    background: #fff;
+}
